@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Namitha-GS/leetcode/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Namitha-GS/leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Namitha-GS/leetcode/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Namitha-GS/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 ## Math
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0217-contains-duplicate](https://github.com/Namitha-GS/leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Namitha-GS/leetcode/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Namitha-GS/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 ## Sorting
 |  |
 | ------- |
