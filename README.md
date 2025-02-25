@@ -20,12 +20,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Namitha-GS/leetcode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Namitha-GS/leetcode/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Namitha-GS/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [1395-minimum-time-visiting-all-points](https://github.com/Namitha-GS/leetcode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Namitha-GS/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 ## Math
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/Namitha-GS/leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Namitha-GS/leetcode/tree/master/0268-missing-number) |
+| [1395-minimum-time-visiting-all-points](https://github.com/Namitha-GS/leetcode/tree/master/1395-minimum-time-visiting-all-points) |
 ## Hash Table
 |  |
 | ------- |
@@ -52,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Namitha-GS/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+## Geometry
+|  |
+| ------- |
+| [1395-minimum-time-visiting-all-points](https://github.com/Namitha-GS/leetcode/tree/master/1395-minimum-time-visiting-all-points) |
 <!---LeetCode Topics End-->
