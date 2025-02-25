@@ -23,6 +23,7 @@ class Solution {
             }
             else {
                 result[i] = bucket[nums[i] - 1];
+                // the sum (no. of smaller elements count) is in previous index
             }
         }
         return result;
