@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Namitha-GS/leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Namitha-GS/leetcode/tree/master/0015-3sum) |
+| [0053-maximum-subarray](https://github.com/Namitha-GS/leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/Namitha-GS/leetcode/tree/master/0054-spiral-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Namitha-GS/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/Namitha-GS/leetcode/tree/master/0189-rotate-array) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Namitha-GS/leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Namitha-GS/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0875-longest-mountain-in-array](https://github.com/Namitha-GS/leetcode/tree/master/0875-longest-mountain-in-array) |
 ## Enumeration
@@ -105,4 +107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Namitha-GS/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Namitha-GS/leetcode/tree/master/0238-product-of-array-except-self) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Namitha-GS/leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
