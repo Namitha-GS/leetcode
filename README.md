@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Namitha-GS/leetcode/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/Namitha-GS/leetcode/tree/master/0344-reverse-string) |
 | [0875-longest-mountain-in-array](https://github.com/Namitha-GS/leetcode/tree/master/0875-longest-mountain-in-array) |
+| [0908-middle-of-the-linked-list](https://github.com/Namitha-GS/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/Namitha-GS/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 ## String
 |  |
@@ -113,4 +114,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Namitha-GS/leetcode/tree/master/0053-maximum-subarray) |
+## Linked List
+|  |
+| ------- |
+| [0908-middle-of-the-linked-list](https://github.com/Namitha-GS/leetcode/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
