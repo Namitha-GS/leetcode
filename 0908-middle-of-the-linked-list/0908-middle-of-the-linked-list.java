@@ -10,22 +10,32 @@
  */
 class Solution {
     public ListNode middleNode(ListNode head) {
-        if(head == null || head.next == null) {
-            // if there is only 1 element, then return that element
-            return head;
+        ListNode slow, fast;
+        slow = fast = head;
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
-
-        ListNode temp = head;
-        int cnt = 0;
-        while(temp != null) {
-            temp = temp.next;
-            cnt++;
-        }
-
-        temp = head;
-        for(int i=0; i<cnt/2; i++) {
-            temp = temp.next;
-        }
-        return temp;
+        return slow;
     }
+
+    // public ListNode middleNode(ListNode head) {
+    //     if(head == null || head.next == null) {
+    //         // if there is only 1 element, then return that element
+    //         return head;
+    //     }
+
+    //     ListNode temp = head;
+    //     int cnt = 0;
+    //     while(temp != null) {
+    //         temp = temp.next;
+    //         cnt++;
+    //     }
+
+    //     temp = head;
+    //     for(int i=0; i<cnt/2; i++) {
+    //         temp = temp.next;
+    //     }
+    //     return temp;
+    // }
 }
