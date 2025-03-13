@@ -9,6 +9,8 @@
  * }
  */
 class Solution {
+
+    // Iterative Approach
     public ListNode reverseList(ListNode head) {
         ListNode t = head, prev = null;
         while(t != null) {
@@ -19,4 +21,17 @@ class Solution {
         }
         return prev;
     }
+
+    // /* Recursive Approach */
+    // public ListNode reverseListRecursive(ListNode head) {
+    //     if(head == null || head.next == null) {
+    //         return head;
+    //     }
+    //     ListNode newHead = reverseListRecursive(head.next);
+    //     ListNode front = head.next;
+    //     head.next = null;
+    //     front.next = head;
+    //     return newHead;
+    // }
+
 }
