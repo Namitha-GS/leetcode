@@ -10,17 +10,17 @@
  */
 class Solution {
 
-    // Iterative Approach
-    public ListNode reverseList(ListNode head) {
-        ListNode t = head, prev = null;
-        while(t != null) {
-            ListNode front = t.next;
-            t.next = prev;
-            prev = t;
-            t = front;
-        }
-        return prev;
-    }
+    // // Iterative Approach
+    // public ListNode reverseList(ListNode head) {
+    //     ListNode t = head, prev = null;
+    //     while(t != null) {
+    //         ListNode front = t.next;
+    //         t.next = prev;
+    //         prev = t;
+    //         t = front;
+    //     }
+    //     return prev;
+    // }
 
     // /* Recursive Approach */
     // public ListNode reverseListRecursive(ListNode head) {
@@ -33,5 +33,16 @@ class Solution {
     //     front.next = head;
     //     return newHead;
     // }
+
+    public ListNode reverseList(ListNode head) {
+        if(head == null || head.next == null) {
+            return head;
+        }
+        ListNode newhead = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newhead;
+    }
+
 
 }
