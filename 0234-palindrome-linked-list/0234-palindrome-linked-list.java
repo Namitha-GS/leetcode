@@ -10,20 +10,33 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-       ListNode t = head;
-       Stack<Integer> stack = new Stack<>();
-       while(t != null) {
-        stack.push(t.val);
-        t = t.next;
-       }
 
-       t = head;
-       while(t != null) {
-        if(stack.pop() != t.val) {
-            return false;
+        // find middle of linked list
+        ListNode slow = head, fast = head;
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        t = t.next;
-       }
-       return true;
+
+        // slow poiner is middle of linked list
+        // Reverse 2nd half of LL (from middle of LL)
+        ListNode prev = null, t = slow;
+        while(t != null) {
+            ListNode front = t.next;
+            t.next = prev;
+            prev = t;
+            t = front;
+        }
+
+        // initialize 2 pointers, 1 at start of LL & other at end of LL
+        // at start, pointer is head & at end, pointer is prev
+        while(prev != null) {
+            if(head.val != prev.val) {
+                return false;
+            }
+            head = head.next;
+            prev = prev.next;
+        }
+        return true;
     }
 }
