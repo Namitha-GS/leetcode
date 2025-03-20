@@ -16,10 +16,11 @@ class MinStack {
     }
 
     public void pop() {
-        int poppedVal = stack.pop();
+        int poppedVal = stack.peek();
         if (poppedVal == minStack.peek()) {
             minStack.pop();
         }
+        stack.pop();
     }
 
     public int top() {
