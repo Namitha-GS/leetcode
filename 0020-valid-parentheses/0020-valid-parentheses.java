@@ -1,5 +1,6 @@
 class Solution {
     public boolean isValid(String s) {
+
         // if string length is Even, then its valid parentheses
         // else its invalid, so return false
         if(s.length() % 2 != 0) {
@@ -11,17 +12,15 @@ class Solution {
         for(char c : arr) {
             if(c == '{') {
                 stack.push('}');
-            } 
+            }
             else if(c == '[') {
                 stack.push(']');
             }
             else if(c == '(') {
                 stack.push(')');
             }
-            else {
-                if(stack.isEmpty() || c != stack.pop()) {
-                    return false;
-                }
+            else if(stack.isEmpty() || c != stack.pop()) {
+                return false;
             }
         }
         return stack.isEmpty();
