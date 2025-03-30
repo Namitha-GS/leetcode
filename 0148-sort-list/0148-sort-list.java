@@ -16,14 +16,16 @@ class Solution {
         ListNode mid = middle(head);
         ListNode left = head, right = mid.next;
         mid.next = null;
+
         left = sortList(left);
         right = sortList(right);
+
         ListNode merged = merge(left, right);
         return merged;
     }
 
     public ListNode merge(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(-100);
+        ListNode dummy = new ListNode(0);
         ListNode temp = dummy;
         while(l1 != null && l2 != null) {
             if(l1.val <= l2.val) {
@@ -37,9 +39,11 @@ class Solution {
                 temp = temp.next;
             }
         }
+
         if(l1 != null) {
             temp.next = l1;
         }
+
         if(l2 != null) {
             temp.next = l2;
         }
@@ -47,8 +51,8 @@ class Solution {
     }
 
     public ListNode middle(ListNode head) {
-        ListNode slow=head, fast=head.next;
-        while(fast!=null && fast.next!=null) {
+        ListNode slow = head, fast = head.next;
+        while(fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
