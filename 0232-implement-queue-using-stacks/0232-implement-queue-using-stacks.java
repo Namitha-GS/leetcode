@@ -8,8 +8,8 @@ class MyQueue {
         out_stack = new Stack<>();
     }
     
-    public void push(int x) {
-        in_stack.push(x);
+    public void push(int z) {
+        in_stack.push(z);
     }
     
     public int pop() {
