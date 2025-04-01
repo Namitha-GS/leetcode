@@ -1,4 +1,5 @@
 class MyStack {
+    
     // By using Single Queue
     Queue<Integer> q;
 
