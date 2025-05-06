@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Namitha-GS/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/Namitha-GS/leetcode/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Namitha-GS/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0503-next-greater-element-ii](https://github.com/Namitha-GS/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0875-longest-mountain-in-array](https://github.com/Namitha-GS/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/Namitha-GS/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [1306-minimum-absolute-difference](https://github.com/Namitha-GS/leetcode/tree/master/1306-minimum-absolute-difference) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Namitha-GS/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Namitha-GS/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Namitha-GS/leetcode/tree/master/0234-palindrome-linked-list) |
+| [0503-next-greater-element-ii](https://github.com/Namitha-GS/leetcode/tree/master/0503-next-greater-element-ii) |
 ## Design
 |  |
 | ------- |
@@ -170,4 +172,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Namitha-GS/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Namitha-GS/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Namitha-GS/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0503-next-greater-element-ii](https://github.com/Namitha-GS/leetcode/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
