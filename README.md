@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Namitha-GS/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Namitha-GS/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/Namitha-GS/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/Namitha-GS/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Namitha-GS/leetcode/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Namitha-GS/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0503-next-greater-element-ii](https://github.com/Namitha-GS/leetcode/tree/master/0503-next-greater-element-ii) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Namitha-GS/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Namitha-GS/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/Namitha-GS/leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0239-sliding-window-maximum](https://github.com/Namitha-GS/leetcode/tree/master/0239-sliding-window-maximum) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -173,10 +175,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Namitha-GS/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Namitha-GS/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0239-sliding-window-maximum](https://github.com/Namitha-GS/leetcode/tree/master/0239-sliding-window-maximum) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Namitha-GS/leetcode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Namitha-GS/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0503-next-greater-element-ii](https://github.com/Namitha-GS/leetcode/tree/master/0503-next-greater-element-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Namitha-GS/leetcode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Namitha-GS/leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
