@@ -3,10 +3,10 @@ class Solution {
         Deque<Integer> dq = new ArrayDeque<>();
         List<Integer> list = new ArrayList<>();
         for(int i=0; i<nums.length; i++) {
-            if (!dq.isEmpty() && dq.peek() == i - k) {
-                dq.poll();
+            if(!dq.isEmpty() && dq.peekFirst() <= i-k) {
+                dq.pop();
             }
-            while(!dq.isEmpty() && nums[dq.peekLast()] < nums[i]) {
+            while(!dq.isEmpty() && nums[dq.peekLast()] <= nums[i]) {
                 dq.pollLast();
             }
             dq.offer(i);
