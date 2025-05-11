@@ -20,15 +20,15 @@ class Solution {
 
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
-        int cnt = 0;
+        int count = 0;
         boolean[] visited = new boolean[n];
         for(int i=0; i<n; i++) {
             if(!visited[i]) {
-                cnt++;
+                count++;
                 bfs(i, isConnected, visited);
             }
         }
-        return cnt;
+        return count;
     }
 }
 
