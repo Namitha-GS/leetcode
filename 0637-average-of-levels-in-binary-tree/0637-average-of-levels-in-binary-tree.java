@@ -37,9 +37,7 @@ class Solution {
 			}
 			
 			Double avg = sum / n;
-			
 			list.add(avg);
-			
 		}
 		return list;
     }
