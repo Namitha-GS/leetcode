@@ -18,9 +18,10 @@ class Solution {
         if(root == null) {
             return 0;
         }
+
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
-        int depth = 1;
+        int depth = 1; // 1 node is already inserted, so depth=1
 
         while(!q.isEmpty()) {
             int n = q.size();
@@ -38,7 +39,7 @@ class Solution {
                     q.offer(current.right);
                 }
             }
-            depth++;
+            depth++; // increment depth after each level
         }
         return depth;
     }
