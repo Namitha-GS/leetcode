@@ -20,11 +20,11 @@ class Solution {
         }
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
-        List<List<Integer>> l1 = new LinkedList<>();
+        List<List<Integer>> l = new LinkedList<>();
 
         while(!q.isEmpty()) {
             List<Integer> list = new LinkedList<>();
-            int n=q.size();
+            int n = q.size();
             for(int i=0; i<n; i++) {
                 TreeNode current = q.poll();
                 list.add(current.val);
@@ -36,8 +36,8 @@ class Solution {
                     q.offer(current.right);
                 }
             }
-            l1.add(list);
+            l.add(list);
         }
-        return l1;
+        return l;
     }
 }
