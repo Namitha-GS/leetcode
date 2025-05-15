@@ -17,7 +17,7 @@ class Solution {
     /*
     * Using BFS
     */
-    public TreeNode invertTree(TreeNode root) {
+    public TreeNode invertTreeBFS(TreeNode root) {
        
         if(root == null) {
             return null;
@@ -45,7 +45,7 @@ class Solution {
     /*
     * Using DFS
     */
-    public TreeNode invertTreeDFS(TreeNode root) {
+    public TreeNode invertTree(TreeNode root) {
         if(root == null) {
             return null;
         }
