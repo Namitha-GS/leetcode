@@ -14,21 +14,49 @@
  * }
  */
 class Solution {
+    /*
+    * Using BFS
+    */
     public TreeNode invertTree(TreeNode root) {
+       
         if(root == null) {
             return null;
         }
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
 
-        invertTree(root.left);
-        invertTree(root.right);
+        while(!q.isEmpty()) {
+            TreeNode t = q.poll();
+
+            TreeNode cur = t.left;
+            t.left = t.right;
+            t.right = cur;
+
+            if(t.left != null) {
+                q.offer(t.left);
+            }
+            if(t.right != null) {
+                q.offer(t.right);
+            }
+        }
+        return root;
+    }
+
+    /*
+    * Using DFS
+    */
+    public TreeNode invertTreeDFS(TreeNode root) {
+        if(root == null) {
+            return null;
+        }
 
         TreeNode temp = root.left;
         root.left = root.right;
         root.right = temp;
 
-        
+        invertTree(root.left);
+        invertTree(root.right);
 
         return root;
-
     }
 }
