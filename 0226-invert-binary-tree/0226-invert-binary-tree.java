@@ -15,34 +15,6 @@
  */
 class Solution {
     /*
-    * Using BFS
-    */
-    public TreeNode invertTreeBFS(TreeNode root) {
-       
-        if(root == null) {
-            return null;
-        }
-        Queue<TreeNode> q = new LinkedList<>();
-        q.offer(root);
-
-        while(!q.isEmpty()) {
-            TreeNode t = q.poll();
-
-            TreeNode cur = t.left;
-            t.left = t.right;
-            t.right = cur;
-
-            if(t.left != null) {
-                q.offer(t.left);
-            }
-            if(t.right != null) {
-                q.offer(t.right);
-            }
-        }
-        return root;
-    }
-
-    /*
     * Using DFS
     */
     public TreeNode invertTree(TreeNode root) {
@@ -59,4 +31,32 @@ class Solution {
 
         return root;
     }
+
+    /*
+    * Using BFS
+    */
+    // public TreeNode invertTreeBFS(TreeNode root) {
+       
+    //     if(root == null) {
+    //         return null;
+    //     }
+    //     Queue<TreeNode> q = new LinkedList<>();
+    //     q.offer(root);
+
+    //     while(!q.isEmpty()) {
+    //         TreeNode t = q.poll();
+
+    //         TreeNode cur = t.left;
+    //         t.left = t.right;
+    //         t.right = cur;
+
+    //         if(t.left != null) {
+    //             q.offer(t.left);
+    //         }
+    //         if(t.right != null) {
+    //             q.offer(t.right);
+    //         }
+    //     }
+    //     return root;
+    // }
 }
