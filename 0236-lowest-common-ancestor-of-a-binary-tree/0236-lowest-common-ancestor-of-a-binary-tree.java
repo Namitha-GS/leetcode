@@ -23,7 +23,6 @@ class Solution {
         if(left != null && right != null) {
             return root;
         }
-
         // if both are null, then return null
         else if(left == null && right == null) {
             return null;
