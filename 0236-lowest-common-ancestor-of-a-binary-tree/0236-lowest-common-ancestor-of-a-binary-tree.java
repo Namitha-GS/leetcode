@@ -25,7 +25,7 @@ class Solution {
         }
 
         // if both are null, then return null
-        if(left == null && right == null) {
+        else if(left == null && right == null) {
             return null;
         }
 
