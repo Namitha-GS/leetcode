@@ -23,11 +23,8 @@ class Solution {
         if(left != null && right != null) {
             return root;
         }
-        // if both are null, then return null
-        else if(left == null && right == null) {
-            return null;
-        }
-
+        
+        // if both are null, it returns null
         // if either 1 is null, then check and return not null element
         return left != null? left : right;
     }
