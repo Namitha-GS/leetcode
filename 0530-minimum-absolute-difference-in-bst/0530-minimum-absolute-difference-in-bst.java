@@ -18,7 +18,7 @@ class Solution {
     public int prev = -1;
     public int getMinimumDifference(TreeNode root) {
         if(root == null) {
-            return min_diff;
+            return 0;
         }
         getMinimumDifference(root.left);
         if(prev != -1) {
