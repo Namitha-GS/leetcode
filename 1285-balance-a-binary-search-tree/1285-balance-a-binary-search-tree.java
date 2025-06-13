@@ -15,9 +15,10 @@
  */
 class Solution {
     List<Integer> list = new ArrayList<>();
-    public TreeNode balanceBST(TreeNode root) {    
+    
+    public TreeNode balanceBST(TreeNode root) {
         inorder(root);
-        root = convertToBST(0, list.size()-1);
+        root = convertArrToBST(0, list.size()-1);
         return root;
     }
 
@@ -30,16 +31,15 @@ class Solution {
         inorder(root.right);
     }
 
-    public TreeNode convertToBST(int start, int end) {
+    public TreeNode convertArrToBST(int start, int end) {
         if(start > end) {
             return null;
         }
-        int mid = (start+end)/2;
-
+        int mid = (start + end)/2;
         TreeNode root = new TreeNode(list.get(mid));
 
-        root.left = convertToBST(start, mid-1);
-        root.right = convertToBST(mid+1, end);
+        root.left = convertArrToBST(start, mid-1);
+        root.right = convertArrToBST(mid+1, end);
 
         return root;
     }
