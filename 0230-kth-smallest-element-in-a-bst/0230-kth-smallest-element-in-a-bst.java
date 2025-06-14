@@ -14,8 +14,9 @@
  * }
  */
 class Solution {
-    public int cnt = 0;
-    public int result = 0;
+    int cnt = 0;
+    int result = 0;
+
     public int kthSmallest(TreeNode root, int k) {
         inorder(root, k);
         return result;
@@ -24,7 +25,6 @@ class Solution {
     public void inorder(TreeNode root, int k) {
         if(root == null) return;
 
-        
         inorder(root.left, k);
         cnt++;
         if(cnt == k) {
@@ -32,7 +32,5 @@ class Solution {
             return;
         }
         inorder(root.right, k);
-    }
-
-    
+    }  
 }
