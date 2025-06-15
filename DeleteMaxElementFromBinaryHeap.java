@@ -29,7 +29,7 @@ public class DeleteMaxElementFromBinaryHeap {
 
 	public static void main(String[] args) {
 		int[] arr = {80, 30, 60, 10, 20, 40, 50};
-	  int size = arr.length;
+		int size = arr.length;
 		swap(arr, 0, size-1);
 		
 		size = size-1;
