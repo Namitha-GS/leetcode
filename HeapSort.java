@@ -23,8 +23,8 @@ public class HeapSort {
 
 	public static void main(String[] args) {
 		int[] arr = {80,60,10,30,50,20,70,90};
-	    buildHeap(arr, arr.length);
-	    heapSort(arr, arr.length);
+		buildHeap(arr, arr.length);
+		heapSort(arr, arr.length);
 		System.out.println(Arrays.toString(arr));
 	}
 	
