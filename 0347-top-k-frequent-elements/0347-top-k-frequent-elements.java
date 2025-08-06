@@ -13,15 +13,15 @@ class Solution {
             bucket[freq].add(key);
         }
         int[] ans = new int[k];
-        int cnt = 0;
-        List<Integer> topK = new ArrayList<>();
-        for (int pos = bucket.length - 1;pos >= 0 && topK.size() < k; pos--) {
-          if (bucket[pos] != null) {
-            topK.addAll(bucket[pos]);
-          }
+        int pos = 0;
+        for (int i = bucket.length - 1; i >= 0; i--) {
+            if (bucket[i] != null) {
+                for (int j = 0; j < bucket[i].size() && pos < k; j++) {
+                    ans[pos] = bucket[i].get(j);
+                    pos++;
+                }
+            }
         }
-
-        
-        return topK.stream().mapToInt(i -> i).toArray();
+        return ans;
     }
 }
