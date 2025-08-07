@@ -4,6 +4,24 @@ class Solution {
         for(int n : nums) {
             map.put(n, map.getOrDefault(n,0)+1);
         }
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b) -> map.get(a) - map.get(b));
+        for(int n : map.keySet()) {
+            pq.add(n);
+            if(pq.size() > k){
+                pq.poll();
+            }
+        }
+        int[] res = new int[k];
+        for(int i=0; i<k; i++){
+            res[i] = pq.poll();
+        }
+        return res;
+    }
+    public int[] topKFrequent1(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int n : nums) {
+            map.put(n, map.getOrDefault(n,0)+1);
+        }
         List<Integer>[] bucket = new List[nums.length + 1];
         for(Integer key : map.keySet()) {
             int freq = map.get(key);
