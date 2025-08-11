@@ -1,5 +1,5 @@
 class Solution {
-
+// BFS
     public int numIslands(char[][] grid) {
        if(grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
@@ -44,8 +44,8 @@ class Solution {
 
 
 
-
-
+/*
+// DFS
     public int numIslandsDFS(char[][] grid) {
         if(grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
@@ -73,4 +73,5 @@ class Solution {
         dfs(grid, i, j-1);
         dfs(grid, i, j+1);
     }
+*/
 }
